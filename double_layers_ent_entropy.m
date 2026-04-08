@@ -25,8 +25,8 @@ gate = mod(gate,2);
 
 %% Main body
 legend_entropy_vec = [];
-N_values = [2^3, 2^4]; % N is a power of two
-% N_values = [12,24]; % N contains some odd factor
+% N_values = [2^3, 2^4]; % N is a power of two
+N_values = [12,24]; % N contains some odd factor
 
 t_final = 8; % final time
 
